@@ -1,0 +1,2118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: black;
+    font-family: 나눔고딕;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+#wrap{
+    min-width: 1400px;
+}
+
+.hidden{
+    overflow: hidden;
+}
+
+/* 커뮤니티 팝업창 */
+
+/* 노티스 팝업 시작 */
+
+.notice_popup{
+    width: 664px;
+    height: 376px;
+    margin: 0 auto;
+    border: 1px solid #707070;
+    background-color: #fff;
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+    z-index: 99;
+
+    position: absolute;
+    top: 50px;
+    left: 615px;    
+}
+
+.notice_popup2{
+    width: 664px;
+    height: 376px;
+    margin: 0 auto;
+    border: 1px solid #707070;
+    background-color: #fff;
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+    z-index: 99;
+
+    position: absolute;
+    top: 50px;
+    left: 615px;   
+
+    /* display: none; */
+}
+
+.notice_popup3{
+    width: 664px;
+    height: 376px;
+    margin: 0 auto;
+    border: 1px solid #707070;
+    background-color: #fff;
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+    z-index: 99;
+
+    position: absolute;
+    top: 50px;
+    left: 615px;    
+}
+
+.notice_popup4{
+    width: 664px;
+    height: 376px;
+    margin: 0 auto;
+    border: 1px solid #707070;
+    background-color: #fff;
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+    z-index: 99;
+
+    position: absolute;
+    top: 50px;
+    left: 615px;    
+}
+
+/* 노티스 팝업 끝 */
+
+/* 리뷰 팝업 시작 */
+
+.review_popup{
+    width: 664px;
+    height: 376px;
+    margin: 0 auto;
+    border: 1px solid #707070;
+    background-color: #fff;
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+    z-index: 99;
+
+    position: absolute;
+    top: 170px;
+    left: 365px;
+    padding: 36px 35px;  
+    color: #292929;
+}
+
+.review_popup2{
+    width: 664px;
+    height: 376px;
+    margin: 0 auto;
+    border: 1px solid #707070;
+    background-color: #fff;
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+    z-index: 99;
+
+    position: absolute;
+    top: 170px;
+    left: 365px;
+    padding: 36px 35px;  
+    color: #292929;
+
+    /* display: none; */
+}
+
+.review_popup3{
+    width: 664px;
+    height: 376px;
+    margin: 0 auto;
+    border: 1px solid #707070;
+    background-color: #fff;
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+    z-index: 99;
+
+    position: absolute;
+    top: 170px;
+    left: 365px;
+    padding: 36px 35px;  
+    color: #292929;
+
+    /* display: none; */
+}
+
+.review_popup4{
+    width: 664px;
+    height: 376px;
+    margin: 0 auto;
+    border: 1px solid #707070;
+    background-color: #fff;
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+    z-index: 99;
+
+    position: absolute;
+    top: 170px;
+    left: 365px;
+    padding: 36px 35px;  
+    color: #292929;
+
+    /* display: none; */
+}
+
+.popup_reviewimg{
+    font-size: 14px;
+}
+
+
+
+.popup_reviewimg img{
+    display: inline;
+}
+
+.popup_reviewimg ul{
+    display: flex;
+}
+
+.popup_reviewimg ul p{
+    position: absolute;
+    top: 57px;
+    right: 167px;
+}
+
+.popup_reviewimg ul li:nth-child(1){
+    padding-right: 70px;
+}
+
+.popup_reviewimg ul li img{
+    display: inline;
+}
+
+.popup_reviewimg ul li:nth-child(2){
+    margin-right: -140px;
+}
+
+.popup_reviewimg ul li:nth-child(2) img{
+    width: 21%;
+}
+
+.popup_reviewimg ul li:nth-child(3){
+    margin: -45px 35px 0 0;
+}
+
+.popup_reviewimg ul li:nth-child(3) img{
+    width: 60%;    
+}
+
+.popup_reviewimg2{
+    font-size: 14px;
+}
+
+.popup_reviewimg2 img{
+    display: inline;
+}
+
+.popup_reviewimg2 ul{
+    display: flex;
+}
+
+.popup_reviewimg2 ul p{
+    position: absolute;
+    top: 57px;
+    right: 167px;
+}
+
+.popup_reviewimg2 ul li:nth-child(1){
+    padding-right: 70px;
+}
+
+.popup_reviewimg2 ul li img{
+    display: inline;
+}
+
+.popup_reviewimg2 ul li:nth-child(2){
+    margin-right: -140px;
+}
+
+.popup_reviewimg2 ul li:nth-child(2) img{
+    width: 21%;
+}
+
+.popup_reviewimg2 ul li:nth-child(3){
+    margin: -45px 35px 0 0;
+}
+
+.popup_reviewimg2 ul li:nth-child(3) img{
+    width: 60%;    
+}
+
+.popup_reviewimg2 ul li:nth-child(4){
+    margin-right: 4px;
+}
+
+/*  */
+
+.popup_reviewimg3{
+    font-size: 14px;
+}
+
+.popup_reviewimg3 img{
+    display: inline;
+}
+
+.popup_reviewimg3 ul{
+    display: flex;
+}
+
+.popup_reviewimg3 ul p{
+    position: absolute;
+    top: 57px;
+    right: 167px;
+}
+
+.popup_reviewimg3 ul li:nth-child(1){
+    padding-right: 70px;
+}
+
+.popup_reviewimg3 ul li img{
+    display: inline;
+}
+
+.popup_reviewimg3 ul li:nth-child(2){
+    margin-right: -140px;
+}
+
+.popup_reviewimg3 ul li:nth-child(2) img{
+    width: 21%;
+}
+
+.popup_reviewimg3 ul li:nth-child(3){
+    margin: -45px 35px 0 0;
+}
+
+.popup_reviewimg3 ul li:nth-child(3) img{
+    width: 60%;    
+}
+
+.popup_reviewimg3 ul li:nth-child(4){
+    margin-right: 12px;
+}
+
+/*  */
+
+.popup_reviewimg4{
+    font-size: 14px;
+}
+
+.popup_reviewimg4 img{
+    display: inline;
+}
+
+.popup_reviewimg4 ul{
+    display: flex;
+}
+
+.popup_reviewimg4 ul p{
+    position: absolute;
+    top: 57px;
+    right: 167px;
+}
+
+.popup_reviewimg4 ul li:nth-child(1){
+    padding-right: 70px;
+}
+
+.popup_reviewimg4 ul li img{
+    display: inline;
+}
+
+.popup_reviewimg4 ul li:nth-child(2){
+    margin-right: -140px;
+}
+
+.popup_reviewimg4 ul li:nth-child(2) img{
+    width: 21%;
+}
+
+.popup_reviewimg4 ul li:nth-child(3){
+    margin: -45px 35px 0 0;
+}
+
+.popup_reviewimg4 ul li:nth-child(3) img{
+    width: 60%;    
+}
+
+.popup_reviewimg4 ul li:nth-child(4){
+    margin-right: 12px;
+}
+
+.popup_text_review{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+
+    position: absolute;
+    top: 95px;
+    right: 109px;
+}
+
+.popup_text_review2{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+
+    position: absolute;
+    top: 95px;
+    right: 50px;
+}
+
+.popup_text_review3{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+
+    position: absolute;
+    top: 95px;
+    right: 84px;
+}
+
+.popup_text_review4{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+
+    position: absolute;
+    top: 95px;
+    right: 93px;
+}
+
+.popup_link_review{
+    font-size: 14px;
+}
+
+.popup_link_review span{
+    font-size: 12px;
+}
+
+/* 리뷰 팝업 끝 */
+
+.popup_title{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 55px 0 40px 0;
+}
+
+.popup_title span{
+    color: rgb(141, 2, 2);
+}
+
+.popup_text{
+    text-align: left;
+    font-size: 16px;
+    padding: 0 70px 0 70px;
+}
+
+.popup_link{
+    font-size: 14px;
+    padding: 40px 70px 0 70px;
+}
+
+.popup_close{
+    display: inline-block;
+
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.popup_logo{
+    width: 10%;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+
+.scroll_none{
+    /* 가상의 클래스. 모달팝업에서 스크롤 안생기게 하려고 사용합니다. */
+    height: 0;
+    overflow: hidden;
+}
+
+.oppacity_box{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.541);
+    margin: 0 auto;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.oppacity_box2{
+    width: 100%;
+    height: 1800px;
+    background-color: rgba(63, 63, 63, 0.253);
+    margin: 0 auto;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* 리뷰용 */
+.oppacity_box3{
+    width: 100%;
+    height: 1800px;
+    background-color: rgba(63, 63, 63, 0.253);
+    margin: 0 auto;
+
+    position: absolute;
+    top: 1100px;
+    left: 0;
+}
+
+/* 탑버튼 박스 */
+.top_buttonbox {
+    transition: all 10s;
+}
+
+/* 탑버튼 */
+.top_button {
+    position: fixed;
+    bottom: 50px;
+    right: -410px;
+    display: none;
+    z-index: 9;
+    transition: all 0.95s;
+}
+
+.top_button:hover {
+    transform: translateY(-10px);
+    transition: all 0.95s;
+}
+
+.top_button img {
+    width: 8.5%;
+}
+
+.hamberger_box {
+    width: 410px;
+    height: 1100px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.918);
+    color: black;
+
+    font-family: 'Garet Book';
+    src: url('Garet-Book.eot');
+    src: url('Garet-Book.eot?#iefix') format('embedded-opentype'),
+        url('Garet-Book.woff2') format('woff2'),
+        url('Garet-Book.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+
+    padding-top: 295px;
+
+    position: absolute;
+    top: -50px;
+    /* left: 1443px; */
+    right: 0;
+    z-index: 16;
+
+}
+
+.hamberger_box a {
+    display: block;
+    width: 300px;
+    margin: 20px 30px 0 50px;
+}
+
+.hamberger_logo img{
+    width: 95%;
+    margin-left: 13px;
+}
+
+/* .hamberger_logo a img {
+    display: block;
+    width: 150px;
+    padding: 50px 30px 0 50px;
+    float: right;
+} */
+
+/* .hamberger_box img{
+    width: 410px;
+    padding: 50px 0 0 50px;
+} */
+
+
+.hamberger_box ul {
+    padding: 100px 37px 50px 50px;
+    margin-right: 3px;
+}
+
+.hamberger_box ul li {
+    padding-bottom: 50px;
+    text-align: right;
+    width: 100%;
+}
+
+.hamberger_box ul li:nth-child(1) {
+    text-align: right;
+    margin-left: 9px;
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.hamberger_box ul li:nth-child(2) {
+    margin-left: 9px;
+}
+
+.hamberger_box ul li:nth-child(3) {
+    margin-left: 9px;
+}
+
+.hamberger_box ul li:nth-child(4) {
+    margin-left: 9px;
+}
+
+.hamberger_box ul li a {
+    display: inline;
+}
+
+.hamberger_box ul li a:hover {
+    color: rgba(0, 0, 0, 0.651);
+}
+
+
+.close_box {
+    overflow: hidden;
+}
+
+/* 15px; */
+.hamberger_close {
+    display: inline-block;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 1.55%; 
+    right: -5.3%;
+    z-index: 16;
+
+}
+
+.hamberger_close img {
+    width: 5.77%;
+}
+
+#wrap {
+   min-width: 1320px;
+   /* overflow: hidden; */
+}
+
+/* !! 서치바 시작 !!*/
+
+.search_bar{
+    width: 100%;
+    height: 204px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.918);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* 300px; */
+    z-index: 15;
+    color: rgb(54, 54, 54);
+
+}
+
+.search_bar input{
+    width: 34%;
+    height: 36px;
+    border: 1px solid rgba(20, 20, 20, 0.836);
+    border-radius: 25px;
+    position: absolute;
+    top: 52.3%;
+    left: 642px;
+    font-size: 18px;
+    z-index: 15;
+    color: rgb(148, 148, 148);
+    padding: 0 20px 0.45px 20px;
+}
+
+.search_logo img{
+    width: 59%;
+    padding: 30px 0 0 822.5px;
+}
+
+/* 검색어를 입력하세요 색상변경 */
+input::placeholder {
+    color: rgb(197, 197, 197);
+    font-size: 18px;
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+.search_bar a {
+    display: inline-block;
+    z-index: 15;
+}
+
+.search_textbox{
+    position: absolute;
+    top: 151px;
+    left: 719px;
+    z-index: 15;
+    color: rgb(112, 112, 112);
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.search_link {
+    display: flex;
+    width: 100%;
+
+    font-family: '';
+    src: url('NanumGothicOTFLight00.eot');
+    src: url('NanumGothicOTFLight00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTFLight00.woff2') format('woff2'),
+        url('NanumGothicOTFLight00.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    letter-spacing: 1px;
+    z-index: 15;
+    font-size: 16px;
+}
+
+.search_link li:nth-child(1) {
+    padding-right: 70px;
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+}
+
+.search_link li a {
+    display: inline-block;
+    margin-right: 50px;
+    z-index: 15;
+}
+
+.search_close_box{
+    width: 50px;
+    height: 50px;
+
+
+    position: absolute;
+    top: 15px;
+    left: 1500px;
+    z-index: 15;
+}
+
+.search_close{
+    display: inline-block;
+    text-align: center;
+}
+
+.search_close img{
+    width: 59%;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a:hover,
+a:focus {
+    outline: none;
+}
+
+/*----*/
+
+h3 {
+    color: #fff;
+    font-weight: bold;
+    margin: 0 0 50px 0;
+    /* position: relative; */
+    padding: 0 0 5px 0;
+}
+
+h3:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.1);
+    bottom: -4px;
+    width: 25%;
+    height: 1px;
+    left: 0;
+    position: absolute;
+}
+
+.back {
+    padding: 50px 0 150px 0;
+}
+
+.color-1 {
+    background: #353535;
+}
+
+.color-2 {
+    background: #353535;
+}
+
+.color-3 {
+    background: #353535;
+}
+
+.color-4 {
+    background: #353535;
+}
+
+.color-5 {
+    background: #353535;
+}
+
+.color-6 {
+    background: #353535;
+}
+
+.color-7 {
+    background: #353535;
+}
+
+.color-8 {
+    background: #353535;
+}
+
+.color-9 {
+    background: #353535;
+}
+
+.color-10 {
+    background: #353535;
+}
+
+body * {
+    font-family: Lato !important;
+}
+
+
+.menu a {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: Lato;
+    font-size: 17pt;
+    font-weight: 400;
+    padding: 15px 25px;
+    /**/
+    position: relative;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/* 	.main video{ position: absolute;
+				top: 0px;
+				left: 50%;
+				transform: translateX(-50%);
+				min-width: 100%;
+				min-height: 100%;
+				width: auto;
+				height: auto;
+				z-index: -1000;
+				overflow: hidden;}
+			.main{
+				display:block;
+				overflow: hidden;
+				height: 867px;
+				position:relative;} */
+
+/* @font-face {
+    font-family: 'Alone Walker';
+    src: url('AloneWalkerRegular.eot');
+    src: url('AloneWalkerRegular.eot?#iefix') format('embedded-opentype'),
+        url('AloneWalkerRegular.woff2') format('woff2'),
+        url('AloneWalkerRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Garet Book';
+    src: url('Garet-Book.eot');
+    src: url('Garet-Book.eot?#iefix') format('embedded-opentype'),
+        url('Garet-Book.woff2') format('woff2'),
+        url('Garet-Book.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Garet';
+    src: url('Garet-Heavy.eot');
+    src: url('Garet-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('Garet-Heavy.woff2') format('woff2'),
+        url('Garet-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('Pretendard-Bold.eot');
+    src: url('Pretendard-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Pretendard-Bold.woff2') format('woff2'),
+        url('Pretendard-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('Pretendard-Black.eot');
+    src: url('Pretendard-Black.eot?#iefix') format('embedded-opentype'),
+        url('Pretendard-Black.woff2') format('woff2'),
+        url('Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('Pretendard-ExtraBold.eot');
+    src: url('Pretendard-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Pretendard-ExtraBold.woff2') format('woff2'),
+        url('Pretendard-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('Pretendard-ExtraLight.eot');
+    src: url('Pretendard-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Pretendard-ExtraLight.woff2') format('woff2'),
+        url('Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('Pretendard-Regular.eot');
+    src: url('Pretendard-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Pretendard-Regular.woff2') format('woff2'),
+        url('Pretendard-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('Pretendard-Light.eot');
+    src: url('Pretendard-Light.eot?#iefix') format('embedded-opentype'),
+        url('Pretendard-Light.woff2') format('woff2'),
+        url('Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('Pretendard-Medium.eot');
+    src: url('Pretendard-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Pretendard-Medium.woff2') format('woff2'),
+        url('Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('Pretendard-Thin.eot');
+    src: url('Pretendard-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Pretendard-Thin.woff2') format('woff2'),
+        url('Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('Pretendard-SemiBold.eot');
+    src: url('Pretendard-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Pretendard-SemiBold.woff2') format('woff2'),
+        url('Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('NanumGothicOTFBold00.eot');
+    src: url('NanumGothicOTFBold00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTFBold00.woff2') format('woff2'),
+        url('NanumGothicOTFBold00.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('NanumGothicOTFExtraBold00.eot');
+    src: url('NanumGothicOTFExtraBold00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTFExtraBold00.woff2') format('woff2'),
+        url('NanumGothicOTFExtraBold00.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('NanumGothicOTFLight00.eot');
+    src: url('NanumGothicOTFLight00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTFLight00.woff2') format('woff2'),
+        url('NanumGothicOTFLight00.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+ */
+
+/* 탑버튼 박스 */
+.top_buttonbox {
+    transition: all 10s;
+}
+
+/* 탑버튼 */
+.top_button {
+    position: fixed;
+    bottom: 50px;
+    right: -410px;
+    display: none;
+    z-index: 9;
+    transition: all 0.95s;
+}
+
+.top_button:hover {
+    transform: translateY(-10px);
+    transition: all 0.95s;
+}
+
+.top_button img {
+    width: 8.5%;
+}
+
+/* 네비버튼 박스 */
+.navi_buttonbox{
+
+}
+
+/* 네비버튼 */
+.navi_button{
+    position: fixed;
+    bottom: 300px;
+    right: 53px;
+    z-index: 9;
+    /* display: none; */
+    text-align: right;
+
+    font-family: 'Garet Book';
+    src: url('Garet-Book.eot');
+    src: url('Garet-Book.eot?#iefix') format('embedded-opentype'),
+        url('Garet-Book.woff2') format('woff2'),
+        url('Garet-Book.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+
+    display: none;
+}
+
+.navi_button p{
+    display: inline-block;
+    padding-right: 7px;
+    text-align: center;
+}
+
+.navi_button p:hover{
+    color: rgba(0, 0, 0, 0.651);
+}
+
+.navi_button img{
+    width: 6px;
+    height: 6px;
+}
+
+.top {
+    width: 100%;
+    height: 155px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-bottom: 1px solid rgb(75, 75, 75);
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    color: #fff;
+    z-index: 9;
+    box-sizing: border-box;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* 로고_복사본 (제이쿼리용) */
+/* .logo_copy{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 711.5px;
+    z-index: 99;
+}
+
+.logo_copy a{
+    display: block;
+}
+
+.logo_copy a img{
+    width: 480px;
+} */
+
+
+/* 메인-탑-로고 */
+
+/* !! 서치바 작업할 동안 숨겨놓기 !! */
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    z-index: 8;
+    margin: 0 auto;
+}
+
+.logo a {
+    display: inline;
+    width: 480px;
+    transition: all 1s;
+    z-index: 8;
+}
+
+.logo a:hover {
+    transform: scale(0.96);
+    transition: all 1s;
+}
+
+.logo a img {
+    width: 480px;
+}
+
+/* 메인-탑-서치/햄버거 아이콘 */
+.top_link {
+    display: flex;
+    width: 100px;
+    height: 32px;
+    position: absolute;
+    top: 9px;
+    right: 0;
+    margin: 0 50px 0 0;
+}
+
+.top_link li a {
+    display: inline-block;
+}
+
+.top_link li a img {
+    width: 100%;
+}
+
+.top_link li:nth-child(1) {
+    margin-right: 40px;
+}
+
+
+
+#notice_section{
+    height: 654px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+
+    position: relative;
+}
+
+.notice_inner{
+    width: 1320px;
+    height: 654px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-bottom: 70px;
+
+}
+
+.section_navbox{
+    width: 91px;
+    height: 128px;
+}
+
+.notice_nav_link{
+    margin: 0 auto;
+    margin: 244px 0 200px 85px;
+
+    font-family: 'Garet Book';
+    src: url('Garet-Book.eot');
+    src: url('Garet-Book.eot?#iefix') format('embedded-opentype'),
+        url('Garet-Book.woff2') format('woff2'),
+        url('Garet-Book.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+
+    font-size: 18px;
+    color: #4A4646;
+
+}
+
+.notice_nav_link li{
+    padding-bottom: 33px;
+    text-align: left;
+}
+
+.notice_nav_link li p{
+    display: inline;
+}
+
+/* .notice_nav_link img{
+    position: absolute;
+    top: 25.36%;
+    left: 17.97%;
+    z-index: 99;
+
+    width: 1.4%;
+} */
+
+.notice_nav_link li:nth-child(1){
+    margin: 0 0 -7.5px -37px;
+
+    font-weight: 500;
+    color: black;
+    font-size: 19px;
+    display: flex;
+}
+
+.notice_nav_link li a{
+    display: inline-block;
+}
+
+.notice_nav_link li:nth-child(1) a:hover{
+    color: rgba(0, 0, 0, 0.651);
+}
+
+.notice_nav_link li a:hover{
+    color: black;
+}
+
+.notice_inner_imgbox{
+    padding: 0 0 0 59px;
+}
+
+.notice_inner_imgbox img{
+    width: 612px;
+    height: 464px;
+}
+
+.notice_allbox{
+    width: 1202px;
+    height: 466px;
+    box-sizing: border-box;
+    margin-top: 55px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.notice_thumbnail{
+    box-sizing: border-box;
+
+    margin: 7px 0 0 40px;
+}
+
+.notice_thumbnail_link{
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 17px;
+
+    float: left;
+    margin: -22px 70px 0 -10px;
+    width: 563px;
+}
+
+.notice_thumbnail_link li{
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 17px;
+
+    float: right;
+}
+
+.notice_thumbnail_link li a img{
+    transition: all 1s;
+}
+
+.notice_thumbnail_link li a img:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+    opacity: 0.7;
+}
+
+.notice_thumbnail_link li a{
+    margin-left: 20px;
+    display: inline;
+}
+
+.notice_thumbnail_link li img{
+    width: 268px;
+    height: 172px;
+}
+
+.notice_thumbnail_link li p{
+    padding-top: 9px;
+}
+
+.notice_thumbnail_link li:nth-child(1){
+    margin-top: -7px;
+    margin-left: 20px;
+}
+
+.notice_thumbnail_link li:nth-child(2){
+    margin-top: -7px;
+}
+
+.notice_thumbnail_link li:nth-child(3){
+    margin-top: 30px;
+    margin-left: 21px;
+}
+
+.notice_thumbnail_link li:nth-child(3) p{
+    margin-top: -5.1px;
+}
+
+.notice_thumbnail_link li:nth-child(4){
+    margin-top: 30px;
+}
+
+.notice_thumbnail_link li:nth-child(4) p{
+    margin-left: 1px;
+}
+
+.notice_span{
+    font-family: '';
+    src: url('NanumGothicOTFBold00.eot');
+    src: url('NanumGothicOTFBold00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTFBold00.woff2') format('woff2'),
+        url('NanumGothicOTFBold00.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+
+    color: #A13E3E;
+    padding-right: 5px;
+}
+
+.section_navbox2{
+    width: 91px;
+    height: 128px;
+}
+
+#review_section{
+    width: 1320px;
+    height: 900px;
+    margin: 217px auto;
+
+    display: flex;
+    position: relative;
+}
+
+.nav_specialbox{
+    display: flex;
+}
+
+.nav_specialbox img{
+    width: 27px;
+    margin: -1px 9.5px 0 0;
+}
+
+.review_nav_link{
+    margin: 0 auto;
+    margin: 150px 0 18px 90px;
+
+    font-family: 'Garet Book';
+    src: url('Garet-Book.eot');
+    src: url('Garet-Book.eot?#iefix') format('embedded-opentype'),
+        url('Garet-Book.woff2') format('woff2'),
+        url('Garet-Book.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+
+    font-size: 18px;
+    color: #4A4646;
+}
+
+.review_nav_link>li{
+    padding-bottom: 33px;
+    text-align: left;
+}
+
+.review_nav_link>li>p{
+    display: inline;
+}
+
+/* .review_nav_link>img{
+    position: absolute;
+    top: 1542.5px;
+    left: 342px;
+    z-index: 99;
+
+    width: 1.4%;
+} */
+
+.review_nav_link>li:nth-child(2){
+    margin: 0 0 -2px -39px;
+    font-weight: 500;
+    color: black;
+    font-size: 19px;
+    display: flex;
+}
+
+.review_nav_link>li>a{
+    display: inline-block;
+}
+
+.review_nav_link>li>a>img{
+    display: inline-block;
+    z-index: 99;
+
+    width: 1.4%;
+}
+
+.review_nav_link>li:nth-child(2)>a:hover{
+    color: rgba(0, 0, 0, 0.651);
+}
+
+.nav_specialbox a:hover{
+    color: rgba(0, 0, 0, 0.651);
+}
+
+.review_nav_link>li>a:hover{
+    color: black;
+}
+
+.review_allbox{
+    width: 1202px;
+    height: 466px;
+    box-sizing: border-box;
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 7px auto;
+    margin-left: 60px;
+}
+
+.review_linkbox{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.review_linkbox>li{
+    margin: px;
+}
+
+.review_linkbox>li:nth-child(1){
+    width: 550px;
+    height: 466px;
+
+    /* width: 550px;
+    height: 466px; */
+}
+
+.review_linkbox>li:nth-child(2){
+    width: 612px;
+    height: 466px;
+    margin-left: ;
+}
+
+.review_linkbox>li:nth-child(2) img{
+    height: 100%;
+}
+
+.review_imgbox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.review_products_name{
+    color: #3A3A3A;
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 14px;
+
+   
+}
+
+.review_products_name2{
+    color: #3A3A3A;
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 16px;
+
+    margin: -5px 0 10px 0;
+}
+
+
+
+.review_imgbox li span{
+    color: #A13E3E;
+}
+
+.review_imgbox li p{
+    padding-top: 5px;
+}
+
+.review_imgbox li a{
+}
+
+.space_span{
+    font-size: 12.3px;
+    line-height: ;
+}
+
+.space_span2{
+    font-size: 10.3px;
+}
+
+.review_products_name3{
+    color: #3A3A3A;
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 16px;
+
+    margin-top: -4px;
+}
+
+.space_span3{
+    font-size: 13.3px;
+}
+
+.space_span4{
+    font-size: 8.35px;
+}
+
+.review_imgbox li:nth-child(3), .review_imgbox li:nth-child(4){
+    padding-top: 7px;
+}
+
+.review_imgbox li a img{
+    transition: all 1s;
+}
+
+.review_imgbox li a img:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+    opacity: 0.7;
+}
+
+#faq_section{
+    width: 1320px;
+    height: 900px;
+    margin: 310px auto;
+
+}
+
+.section_navbox3{
+    margin: 0 auto;
+    margin: 150px 0 18px 90px;
+
+    font-family: 'Garet Book';
+    src: url('Garet-Book.eot');
+    src: url('Garet-Book.eot?#iefix') format('embedded-opentype'),
+        url('Garet-Book.woff2') format('woff2'),
+        url('Garet-Book.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+
+    font-size: 18px;
+    color: #4A4646;
+}
+
+.faq_nav_link{
+    list-style: none;
+
+}
+
+.faq_nav_link>li{
+    padding-bottom: 33px;
+    text-align: left;
+}
+
+.faq_nav_link>li>p{
+    display: inline;
+}
+
+/* .review_nav_link>img{
+    position: absolute;
+    top: 1542.5px;
+    left: 342px;
+    z-index: 99;
+
+    width: 1.4%;
+} */
+
+.faq_nav_link>li:nth-child(2)a:hover{
+    color: black;
+}
+
+.faq_nav_link>li:nth-child(3){
+    margin: 0 0 -2px -37.3px;
+    font-weight: 500;
+    color: black;
+    font-size: 19px;
+    display: flex;
+}
+
+.faq_nav_link>li>a{
+    display: inline-block;
+}
+
+.faq_nav_link>li>a>img{
+    display: inline-block;
+    z-index: 99;
+
+    width: 1.4%;
+}
+
+/* .faq_nav_link>li:nth-child(2)>a:hover{
+    color: rgba(0, 0, 0, 0.651);
+} */
+
+.faq_nav_link>li>a:hover{
+    color: black;
+}
+
+.faq_allbox{
+    width: 1202px;
+    height: 466px;
+    box-sizing: border-box;
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 7px auto;
+    margin-left: 60px;
+
+    border: 1px solid #707070;
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.faq_linkbox{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.faq_linkbox li:nth-child(1){
+    width: 612px;
+    height: 465px;
+    z-index: 9;
+}
+
+.faq_linkbox li:nth-child(1) img{
+    height: 100%;
+}
+
+/*  */
+
+h1{
+    margin-top:100px;
+	/* text-align:center; */
+}
+
+/* 588.7px; */
+.accordion{
+    width: 588.7px;
+	margin: auto;
+	background: #fff;
+    box-sizing: border-box;
+}
+	
+/*제목부분*/
+.accordion_title_{
+    overflow:hidden;
+	padding:10px 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.accordion_title_ img{
+    margin-top: -3px;
+}
+
+.accordion_title{
+    overflow:hidden;
+	padding:10px 10px;
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #707070;
+}
+
+.accordion_title_in_{
+    width: 1200%;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 1px;
+    padding-right: 343.5px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.accordion_title_in_ p{
+   
+}
+
+.accordion_title_in_ a{
+    display: block;
+    width: 50px;
+    height: 20px;
+}
+
+.accordion_title_in_ a img{
+    width: 18%;    
+}
+
+.accordion_title_in{
+    width: 1200%;
+    text-align: left;
+    padding-top: 4.5px;
+    padding-left: 35px;
+}
+
+/* #707070 */
+
+.accordion_title_in span{
+    font-family: '';
+    src: url('NanumGothicOTFBold00.eot');
+    src: url('NanumGothicOTFBold00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTFBold00.woff2') format('woff2'),
+        url('NanumGothicOTFBold00.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+
+    font-size: 16px;
+}
+
+.accordion_plus img{
+    width: 85%;
+}
+
+.accordion_plus{
+	margin-right:10px;
+}
+/* #f9f9f9; */
+.accordion_text_info{
+    padding: 9px;
+	background: #fff;
+	display:none;
+
+    border-bottom: 1px solid #3b3b3b;
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: rgb(34, 34, 34);
+}
+
+/* #check-btn { display: none; }
+#check-btn:checked ~ .menubars { display: block; } 
+.menubars { display: none; } */
+
+.accordion_link{
+}
+
+.accordion_link li{
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+    font-size: 16px;
+}
+    
+
+.accordion_link li:nth-child(1){
+    font-family: '';
+    src: url('NanumGothicOTFBold00.eot');
+    src: url('NanumGothicOTFBold00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTFBold00.woff2') format('woff2'),
+        url('NanumGothicOTFBold00.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+
+    width: 100%;
+    height: 62px;
+    border-bottom: 2.5px solid #707070;
+
+    display: flex;
+    font-size: 17px;
+    padding: 5px 0 0 10px;
+}
+
+
+/*+모양 회전관련 속성. 요부분은 반드시 복사해서 가져가세요~*/
+.turn .accordion_title img{
+    transform:rotate(45deg);
+    transition: all 1s;
+}
+
+.accordion_plus img{
+    transition:transform 0.5s;
+    transition: all 1s;
+}
+
+/* 꾸미기 수정 */
+.accordion_link{
+    box-sizing: border-box;
+}
+
+/* faq 검색창 참고*/
+/* .search_bar{
+    width: 1320px;
+    height: 204px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.918);
+
+    position: absolute;
+    top: 0;
+    left: 300px; */
+    /* 300px; */
+    /* z-index: 15;
+    color: rgb(54, 54, 54);
+}
+
+.search_bar input{
+    width: 50%;
+    height: 36px;
+    border: 1px solid rgba(20, 20, 20, 0.836);
+    border-radius: 25px;
+    position: absolute;
+    top: 28%;
+    left: 350px;
+    font-size: 18px;
+    z-index: 15;
+    color: rgb(148, 148, 148);
+    padding: 0 20px 0.45px 20px;
+} */
+
+/* 검색어를 입력하세요 색상변경 */
+/* input::placeholder {
+    color: rgb(197, 197, 197);
+    font-size: 18px;
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+.search_bar a {
+    display: inline-block;
+    z-index: 15;
+} */
+
+.faq_searchbox{
+    width: 588.7px;
+    margin: 0 auto;
+
+    position: relative;
+    display: block;
+    margin: -47px 0 -75px 0;
+}
+
+.faq_searchbox input{
+    width: 93%;
+    height: 40px;
+    margin: 70px auto;
+    display: flex;
+    padding: 0 0 0 20px;
+
+    border: 1px solid #7E7575;
+    border-bottom: 2.5px solid #707070;
+}
+
+.faq_searchbox input::placeholder{
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 16px;
+}
+
+.faq_searchbox img{
+    width: 5%;
+    
+    position: absolute;
+    top: 5.5px;
+    right: 42px;
+}
+
+#footer {
+    height: 300px;
+    margin: 0 auto;
+    border-top: 1px solid #707070;
+
+    margin-top: -100px;
+}
+
+.footer_inner{
+    width: 1320px;
+    height: 300px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55px;
+
+}
+
+.sublogo_box img{
+    width: 251px;
+}
+
+.footer_text_box{
+    width: 528px;
+    height: 118px;
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+
+}

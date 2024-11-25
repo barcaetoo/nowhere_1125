@@ -1,0 +1,598 @@
+*{
+    margin:0; 
+    padding:0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+/* 탑버튼 박스 */
+.top_buttonbox {
+    transition: all 10s;
+}
+
+/* 탑버튼 */
+.top_button {
+    position: fixed;
+    bottom: 50px;
+    right: -410px;
+    display: none;
+    z-index: 999;
+    transition: all 0.95s;
+}
+
+.top_button:hover {
+    transform: translateY(-10px);
+    transition: all 0.95s;
+}
+
+.top_button img {
+    width: 8.5%;
+}
+
+.sec1{
+    background:rgb(255, 255, 255);
+}
+
+.sec1_inner{
+    width: 1320px;
+    height: 960px;
+    margin: 0 auto;
+    background: url(../image/sub/mockup/1320_960/banner_web.jpg)
+    no-repeat top 120px center;
+    background-size: 1320px;
+
+    position: relative;
+}
+
+.mockup_mark{
+    width: 171px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    top: 230px;
+    left: 0;
+}
+
+.mockup_mark p{
+    font-family: 'Garet Book';
+    src: url('Garet-Book.eot');
+    src: url('Garet-Book.eot?#iefix') format('embedded-opentype'),
+        url('Garet-Book.woff2') format('woff2'),
+        url('Garet-Book.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+
+    font-size: 22px;
+    color: #fff;
+
+    display: block;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.mockup_textbox{
+    width: 195px;
+    height: 131px;
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    text-align: right;
+
+    border-right: 3px solid black;
+    padding-right: 10px;
+}
+
+.mockup_textbox2{
+    width: 195px;
+    height: 131px;
+    position: absolute;
+    bottom: 70px;
+    right: 300px;
+    text-align: right;
+
+    border-right: 3px solid black;
+    padding-right: 10px;
+}
+
+.mockup_textbox_title{
+    font-family: 'Garet Book';
+    src: url('Garet-Book.eot');
+    src: url('Garet-Book.eot?#iefix') format('embedded-opentype'),
+        url('Garet-Book.woff2') format('woff2'),
+        url('Garet-Book.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+
+    font-size: 21px;
+    font-weight: 350;
+    padding-top: ;
+}
+
+.mockup_textbox_title2{
+    font-family: 'Garet Book';
+    src: url('Garet-Book.eot');
+    src: url('Garet-Book.eot?#iefix') format('embedded-opentype'),
+        url('Garet-Book.woff2') format('woff2'),
+        url('Garet-Book.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+
+    font-size: 21px;
+    font-weight: 350;
+    padding-top: ;
+}
+
+.mockup_textbox_text{
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+    font-size: 15px;
+    padding-top: 32px;
+}
+
+.mockup_textbox_text2{
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+    font-size: 15px;
+    padding-top: 32px;
+}
+
+
+
+.sec2{
+    background:rgb(255, 255, 255);
+}
+
+.sec2_inner{
+    width: 1320px;
+    height: 960px;
+    margin: 0 auto;
+    background: url(../image/sub/mockup/1320_960/hoodwear.jpg)
+    no-repeat top 80px center;
+    background-size: 1320px 960px;
+}
+
+.sec3{
+    background:rgb(255, 255, 255)
+}
+
+.sec3_inner{
+    width: 1320px;
+    height: 960px;
+    margin: 0 auto;
+    background: url(../image/sub/mockup/1320_960/padding_size.jpg)
+    no-repeat top 80px center;
+    background-size: 1320px 960px;
+}
+
+.sec4_inner{
+    width: 1320px;
+    height: 960px;
+    margin: 0 auto;
+    background: url(../image/sub/mockup/1320_960/coffeecup_size.jpg)
+    no-repeat top 50px center;
+    background-size: 1320px;
+}
+
+.sec5_inner{
+    width: 1320px;
+    height: 960px;
+    margin: 0 auto;
+    background: url(../image/sub/mockup/1320_960/serum_size.jpg)
+    no-repeat top 80px center;
+    background-size: 1320px;
+}
+
+.sec6_inner{
+    width: 1320px;
+    height: 960px;
+    margin: 0 auto;
+    background: url(../image/sub/mockup/1320_960/iPhone.jpg)
+    no-repeat top 80px center;
+    background-size: 1320px;
+}
+
+.sec7_inner{
+    width: 1320px;
+    height: 960px;
+    margin: 0 auto;
+    background: url(../image/sub/mockup/1320_960/note_basic_shadow.jpg)
+    no-repeat top 80px center;
+    background-size: 1320px;
+}
+
+.sec8_inner{
+    width: 1320px;
+    height: 960px;
+    margin: 0 auto;
+    background: url(../image/sub/mockup/1320_960/paperbag_size.jpg)
+    no-repeat top 80px center;
+    background-size: 1320px;
+}
+
+body{
+    text-align:center;
+}
+
+.footer{
+    padding: 80px 0;
+	background:#ffffff;
+	color:#fff;
+    border: 1px solid black;
+}
+
+.footer img{
+    padding-top: 7px;
+    width: 480px;
+    transition: all 1s;
+}
+
+.footer img:hover{
+    transform: scale(0.96);
+    transition: all 1s;
+}
+
+
+
+.top {
+    width: 100%;
+    height: 155px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-bottom: 1px solid rgb(75, 75, 75);
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    color: #fff;
+    z-index: 9;
+    box-sizing: border-box;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* 로고_복사본 (제이쿼리용) */
+/* .logo_copy{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 711.5px;
+    z-index: 99;
+}
+
+.logo_copy a{
+    display: block;
+}
+
+.logo_copy a img{
+    width: 480px;
+} */
+
+
+/* 메인-탑-로고 */
+
+/* !! 서치바 작업할 동안 숨겨놓기 !! */
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    z-index: 8;
+    margin: 0 auto;
+}
+
+.logo a {
+    display: inline;
+    width: 480px;
+    transition: all 1s;
+    z-index: 8;
+}
+
+.logo a:hover {
+    transform: scale(0.96);
+    transition: all 1s;
+}
+
+.logo a img {
+    width: 480px;
+}
+
+/* 메인-탑-서치/햄버거 아이콘 */
+.top_link {
+    display: flex;
+    width: 100px;
+    height: 32px;
+    position: absolute;
+    top: 9px;
+    right: 0;
+    margin: 0 50px 0 0;
+}
+
+.top_link li a {
+    display: inline-block;
+}
+
+.top_link li a img {
+    width: 100%;
+}
+
+.top_link li:nth-child(1) {
+    margin-right: 40px;
+}
+
+.hamberger_box {
+    width: 410px;
+    height: 1100px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.918);
+    color: black;
+
+    font-family: 'Garet Book';
+    src: url('Garet-Book.eot');
+    src: url('Garet-Book.eot?#iefix') format('embedded-opentype'),
+        url('Garet-Book.woff2') format('woff2'),
+        url('Garet-Book.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+
+    padding-top: 295px;
+
+    position: absolute;
+    top: -50px;
+    /* left: 1443px; */
+    right: 0;
+    z-index: 16;
+
+}
+
+.hamberger_box a {
+    display: block;
+    width: 300px;
+    margin: 20px 30px 0 50px;
+}
+
+.hamberger_logo img{
+    width: 95%;
+    margin-left: 13px;
+}
+
+/* .hamberger_logo a img {
+    display: block;
+    width: 150px;
+    padding: 50px 30px 0 50px;
+    float: right;
+} */
+
+/* .hamberger_box img{
+    width: 410px;
+    padding: 50px 0 0 50px;
+} */
+
+
+.hamberger_box ul {
+    padding: 100px 37px 50px 50px;
+    margin-right: 3px;
+}
+
+.hamberger_box ul li {
+    padding-bottom: 50px;
+    text-align: right;
+    width: 100%;
+}
+
+.hamberger_box ul li:nth-child(1) {
+    text-align: right;
+    margin-left: 9px;
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.hamberger_box ul li:nth-child(2) {
+    margin-left: 9px;
+}
+
+.hamberger_box ul li:nth-child(3) {
+    margin-left: 9px;
+}
+
+.hamberger_box ul li:nth-child(4) {
+    margin-left: 9px;
+}
+
+.hamberger_box ul li a {
+    display: inline;
+}
+
+.hamberger_box ul li a:hover {
+    color: rgba(0, 0, 0, 0.651);
+}
+
+
+.close_box {
+    overflow: hidden;
+}
+
+/* 15px; */
+.hamberger_close {
+    display: inline-block;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 1.55%; 
+    right: -5.3%;
+    z-index: 16;
+
+}
+
+.hamberger_close img {
+    width: 5.77%;
+}
+
+#wrap {
+   min-width: 1320px;
+   /* overflow: hidden; */
+}
+
+/* !! 서치바 시작 !!*/
+
+.search_bar{
+    width: 100%;
+    height: 204px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.918);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* 300px; */
+    z-index: 15;
+    color: rgb(54, 54, 54);
+
+}
+
+.search_bar input{
+    width: 34%;
+    height: 36px;
+    border: 1px solid rgba(20, 20, 20, 0.836);
+    border-radius: 25px;
+    position: absolute;
+    top: 52.3%;
+    left: 642px;
+    font-size: 18px;
+    z-index: 15;
+    color: rgb(148, 148, 148);
+    padding: 0 20px 0.45px 20px;
+}
+
+.search_logo img{
+    width: 59%;
+    padding: 30px 0 0 822.5px;
+}
+
+/* 검색어를 입력하세요 색상변경 */
+input::placeholder {
+    color: rgb(197, 197, 197);
+    font-size: 18px;
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+.search_bar a {
+    display: inline-block;
+    z-index: 15;
+}
+
+.search_textbox{
+    position: absolute;
+    top: 151px;
+    left: 719px;
+    z-index: 15;
+    color: rgb(112, 112, 112);
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.search_link {
+    display: flex;
+    width: 100%;
+
+    font-family: '';
+    src: url('NanumGothicOTFLight00.eot');
+    src: url('NanumGothicOTFLight00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTFLight00.woff2') format('woff2'),
+        url('NanumGothicOTFLight00.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    letter-spacing: 1px;
+    z-index: 15;
+    font-size: 16px;
+}
+
+.search_link li:nth-child(1) {
+    padding-right: 70px;
+
+    font-family: '';
+    src: url('NanumGothicOTF00.eot');
+    src: url('NanumGothicOTF00.eot?#iefix') format('embedded-opentype'),
+        url('NanumGothicOTF00.woff2') format('woff2'),
+        url('NanumGothicOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+}
+
+.search_link li a {
+    display: inline-block;
+    margin-right: 50px;
+    z-index: 15;
+}
+
+.search_close_box{
+    width: 50px;
+    height: 50px;
+
+
+    position: absolute;
+    top: 15px;
+    left: 1500px;
+    z-index: 15;
+}
+
+.search_close{
+    display: inline-block;
+    text-align: center;
+}
+
+.search_close img{
+    width: 59%;
+}

@@ -1,0 +1,723 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1400">
+    <title>NOWHERE</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900); -->
+
+</head>
+
+<body>
+    <!-- javascript:return false; 새로고침 방지 a태그에-->
+    <div id="wrap_wrap">
+        <div id="wrap">
+
+            <!-- 투명도 전체화면 -->
+            <div class="oppacity_box">
+
+            </div>
+
+            <!-- 서치바 박스-->
+            <div class="search_bar_wrap">
+                <div class="search_bar">
+
+                    <div class="search_logo">
+                        <img src="./image/logo/main_logo.png" alt="">
+                    </div>
+
+                    <form action="">
+                        <input type="text" placeholder="  검색어를 입력하세요">
+                    </form>
+
+                    <div class="search_textbox">
+
+                        <ul class="search_link">
+                            <li>인기검색어</li>
+                            <li><a href="javascript:return">안경</a></li>
+                            <li><a href="javascript:return">선글라스</a></li>
+                            <li><a href="javascript:return">뿔테</a></li>
+                            <li><a href="javascript:return">웨어하우스</a></li>
+                        </ul>
+
+                    </div>
+<!-- 서치바 닫기 버튼 -->
+                <div class="search_close_box">
+                    <a href="javascript:return" class="search_close">
+                        <img src="./image/icon/close/close_thin.png" alt="search_close">
+                    </a>
+                </div>
+                </div>
+
+                
+            </div>
+            <!-- 햄버거 박스-->
+            <!-- 햄버거 아이콘 클릭 시 나타남 -->
+            <div class="hamberger_box">
+
+                <a href="./index.html" class="hamberger_logo">
+                    <img src="./image/logo/main_logo.png" alt="hamberger_logo">
+                </a>
+
+                <ul class="hamberger_link">
+                    <li>
+                        <a href="#brand_inpo">
+                            ABOUT
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#wherehouse_section1">
+                            WHERE HOUSE
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./sub/sub_community_index.html">
+                            COMMUNITY
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./sub/sub_mockup_index.html">
+                            DESIGN
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <!-- 햄버거 닫기 버튼 -->
+            <div class="close_box">
+                <a href="javascript:return false;" class="hamberger_close">
+                    <img src="./image/icon/close/close_thin.png" alt="hamberger_close">
+                </a>
+            </div>
+
+
+            <!-- 탑버튼 -->
+            <div class="top_buttonbox">
+                <a href="./index.html" class="top_button">
+                    <img src="./image/icon/top/top_button_b3.png" alt="top_button">
+                </a>
+            </div>
+
+
+            <!-- 네비버튼 // 어바웃/아이웨어/웨어하우스/프로덕트-->
+            <div class="navi_buttonbox">
+
+                <ul class="navi_button">
+                    <li>
+                        <a href="#brand_inpo">
+                            <p>about</p>
+                            <img src="./image/icon/nav/circle_black.png" alt="" class="nav_hide1">
+                            <img src="./image/icon/nav/circle_white.png" alt="" class="nav_show1">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#eyewear_section1">
+                            <p>eyewear</p>
+                            <img src="./image/icon/nav/circle_black.png" alt="" class="nav_hide2">
+                            <img src="./image/icon/nav/circle_white.png" alt="" class="nav_show2">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#wherehouse_section1">
+                            <p>where house</p>
+                            <img src="./image/icon/nav/circle_black.png" alt="" class="nav_hide3">
+                            <img src="./image/icon/nav/circle_white.png" alt="" class="nav_show3">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#produts">
+                            <p>products</p>
+                            <img src="./image/icon/nav/circle_black.png" alt="" class="nav_hide4">
+                            <img src="./image/icon/nav/circle_white.png" alt="" class="nav_show4">
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+
+            <!-- 서치박스 닫기버튼 -->
+            <!-- <div class="search_close_box">
+            <a href="javascript:return" class="search_close">
+                <img src="./image/icon/close_thin.png" alt="search_close">
+            </a>
+        </div> -->
+
+            <!-- 메인-탑-로고/서치/햄버거 아이콘 -->
+            <div id="main">
+
+                <div class="top">
+
+                    <!-- 메인-탑-로고 -->
+                    <h1 class="logo">
+
+                        <a href="./index.html" data-hover="Home">
+                            <img src="./image/logo/main_logo.png" alt="main_logo">
+                        </a>
+                    </h1>
+
+                </div>
+
+
+
+                <!-- 메인-탑2-gnb링크 -->
+
+                <div class="top2">
+                    <ul class="menu align-center expanded text-center SMN_effect-15 top2_gnb">
+                        <li>
+                            <a href="#brand_inpo">ABOUT</a>
+                            <a href="#wherehouse_section1">WHERE HOUSE</a>
+                            <a href="./sub/sub_community_index.html">COMMUNITY</a>
+                            <a href="./sub/sub_mockup_index.html">DESIGN</a>
+                        </li>
+                    </ul>
+
+                    <!-- 메인-탑-서치/햄버거 아이콘 -->
+
+                    <ul class="top_link">
+                        <li class="search_icon">
+                            <a href="javascript:return">
+                                <img src="./image/icon/search.png" alt="icon_search">
+                            </a>
+
+                        </li>
+
+                        <li class="hamberger_icon">
+                            <a href="javascript:return">
+                                <img src="./image/icon/hamberger3.png" alt="icon_hemberger">
+                            </a>
+                        </li>
+
+                    </ul>
+
+
+
+                </div>
+
+
+                <!-- 메인-메인영상_div -->
+                <div class="main_video">
+                    <video src="./video/33.mp4" autoplay loop muted></video>
+                </div>
+
+
+            </div>
+
+            <!-- 브랜드 설명칸-브랜드 슬로건/노웨어 설명 -->
+            <div id="brand_inpo">
+
+                <!-- 브랜드 설명칸 중간박스 -->
+                <div class="brand_inpo_inner">
+                    <img src="./image/brand_info/slogan.jpg" alt="slogan">
+
+                    <p class="nowhere_en_text">
+                        Nowhere is an eyewear brand that started in 1992, and aims to create eyewear that
+                        <br>naturally blends with the wearer's personality. Recently, it has grown into a
+                        <br>more three-dimensional lifestyle brand by launching clothing and
+                        <br>miscellaneous goods, and provides the Nowhere experience
+                        <br>through its website and, Where house.
+                    </p>
+
+                    <p class="nowhere_ko_text">
+                        노웨어는 1992년에 시작된 아이웨어 브랜드로
+                        <br>착용자의 개성과 자연스럽게 어우러지는 아이웨어를 지향하고 있습니다.
+                        <br>최근에는 의류, 잡화 출시로 보다 입체적인 라이프 스타일 브랜드로 성장하고 있으며
+                        <br>노웨어 웹페이지와 오프라인 샵인 웨어하우스를 통해 다양한 채널로 고객과 만나고 있습니다.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div id="eyewear_section1">
+
+                <div class="eyewear_section1_inner">
+
+                    <p class="eyewear_s1_i_title" data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1200">
+                        편안한 무드 속
+                        <br>존재감을 일깨우는
+                        <br>디자인.
+                    </p>
+
+                    <div class="eyewear_video" data-aos="fade-up" data-aos-duration="2800">
+                        <video src="./video/old.mp4" autoplay muted loop></video>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="eyewear_section2">
+
+                <div class="eyewear_section2_inner">
+
+                    <div class="eyewear_s2_i_textbox">
+
+                        <p class="eyewear_s2_i_title">
+                            NOWHERE EYEWEAR
+                        </p>
+
+                        <p class="eyewear_s2_i_text">
+                            노웨어는 안경을 시력 교정을 위한 도구로만 생각하지 않습니다.
+                            <br>안경은 착용자의 시야를 선명하게 해줄 뿐만 아니라
+                            <br>다른 사람에게도 개인이 갖고 있는 고유의
+                            <br>개성을 드러낼 수 있어야 합니다.
+                        </p>
+
+                    </div>
+
+                    <!-- Swiper -->
+
+                    <div #swiperRef="" class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./image/eyewear_size/Untitled-1-1.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="./image/eyewear_size/Untitled-2-1.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="./image/eyewear_size/Untitled-3-1.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="./image/eyewear_size/Untitled-4-1.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="./image/eyewear_size/Untitled-5-1.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="./image/eyewear_size/Untitled-6-1.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="./image/eyewear_size/Untitled-7-1.jpg" alt=""></div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="wherehouse_section1">
+
+                <div class="wherehouse_section1_inner">
+
+                    <p class="wherehouse_s1_i_title" data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1200">
+                        노웨어를
+                        <br>만날 수 있는 곳
+                        <br>웨어하우스.
+                    </p>
+
+                    <div class="wherehouse_video" data-aos="fade-up" data-aos-duration="2800">
+                        <video src="./video/building.mp4" autoplay muted loop></video>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="wherehouse_section2">
+
+                <div class="wherehouse_section2_inner">
+
+                    <!-- 웨어하우스 스와이퍼 -->
+                    <div class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./image/wherehouse_size/last/1107_home/where_1_1107.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./image/wherehouse_size/last/1107_home/where_glasses_1107.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./image/wherehouse_size/last/1107_home/where_whiteboard_1107.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./image/wherehouse_size/last/1107_home/where_display_1107.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./image/wherehouse_size/last/1107_home/where_bag_1107.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./image/wherehouse_size/last/1107_home/where_purfume_light_1107.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./image/wherehouse_size/last/1107_home/where_interior_1107.jpg">
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+
+                    </div>
+
+                    <!-- 웨어하우스 텍스트 박스
+                <div class="wherehouse_s2_i_textbox">
+                    <p class="wherehouse_s2_i_title">
+                        WHERE HOUSE
+                    </p> -->
+
+                    <!-- <p class="wherehouse_s2_i_text">
+                        웨어하우스는 노웨어의 모든 아이웨어와
+                        <br>SIGNATURE 제품을 만나볼 수 있는
+                        <br>오프라인 샵입니다.
+                    </p>
+
+                    <p class="wherehouse_s2_i_text2">
+                        화요일 - 일요일 ㅣ 0930 - 2130
+                        <br>부산 중구 중앙대로 26 1층
+                    </p> -->
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+        <!-- 프로덕트 섹션 만들어야함 -->
+
+        <div id="produts">
+
+            <div>
+
+            </div>
+
+            <p class="produts_title">
+                PRODUCTS
+            </p>
+
+            <div class="products_box">
+                <ul>
+                    <li>
+                        <a href="javascript:return false;">
+                            <img src="./image/products_size_2/glas_1-1.jpg" alt="" class="products_hover1-1">
+                            <div class="hidden_box">
+                                <img src="./image/products_size_2/glas_1.jpg" alt="" class="products_hover1">
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:return false;">
+                            <div class="hidden_box">
+                                <img src="./image/mockup/size/bottle_1-1.jpg" alt="" class="products_hover2-1">
+
+                                <img src="./image/mockup/size/bottle_orange.jpg" alt="" class="products_hover2">
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:return false;">
+                            <img src="./image/products_size_2/glasmood_2.jpg" alt="" class="products_hover3-1">
+                            <img src="./image/products_size_2/glasmood_1.jpg" alt="" class="products_hover3">
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="products_box_ul2">
+
+                    <li>
+                        <a href="javascript:return false;">
+                            <img src="./image/mockup/size/hood_1-1.jpg" alt="" class="products_hover4-1">
+                            <img src="./image/mockup/size/hood_1.jpg" alt="" class="products_hover4">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:return false;">
+                            <img src="./image/products_size_2/sungl_1-1.jpg" alt="" class="products_hover5-1">
+                            <img src="./image/products_size_2/sungl_1.jpg" alt="" class="products_hover5">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:return false;">
+                            <img src="./image/mockup/size/note_1-1.jpg" alt="" class="products_hover6-1">
+                            <img src="./image/mockup/size/note_1.jpg" alt="" class="products_hover6">
+                        </a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+
+        <div id="ending">
+
+            <div class="textflow_box">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+                <img src="./image/logo/main_logo.png" alt="logo_textflow">
+            </div>
+        </div>
+
+
+
+        <div class="ending_inner">
+
+            <p class="ending_inner_p">
+                NOWHERE IS THERE.
+            </p>
+
+            <p class="ending_inner_p">
+                NOWHERE IS EVERYWHERE.
+
+            </p>
+
+        </div>
+
+        <div id="footer">
+
+            <div class="footer_inner">
+
+                <div class="sublogo_box">
+                    <a href="./index.html">
+                    <img src="./image/logo/simbol.png" alt="">
+                    </a>
+                </div>
+
+                <div class="footer_text_box">
+
+                    <p>노웨어 아이웨어
+                        　대표 이성훈
+                        　barca1030@naver.com</p>
+
+                    <p>부산 중구 중앙대로 26 1층 웨어하우스
+                        　010-6556-3290</p>
+
+                    <p>Copyright ⓒ 2025 노웨어아이웨어 All rights reserved.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- <div id="footer">
+
+        <div class="footer_inner">
+
+            <div class="sub_logo">
+                <a href="./index.html">
+                    <img src="./image/logo/simbol.png" alt="sub_simbol">
+                </a>
+            </div>
+
+            <div class="footer_textbox">
+
+                <div class="d1">
+
+                    <p>노웨어 아이웨어</p>
+
+                    <p>
+                        대표 이성훈
+                    </p>
+
+                    <p>
+                        barca1030@naver.com
+                    </p>
+
+                    <br>
+
+                </div>
+
+                <div class="d2">
+                    <p>
+                        부산 중구 중앙대로 26 1층 웨어하우스
+                    </p>
+
+                    <p class="p2">
+                        010-6556-3290
+                    </p>
+                </div>
+
+                <p>
+                    Copyright ⓒ 　2025 노웨어아이웨어 　All rights reserved
+                </p>
+
+
+
+            </div>
+
+        </div>
+
+
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@1
+    1/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="./js/scrips.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+
+    <script>
+        AOS.init();
+    </script>
+
+
+    <!-- 첫번째 스와이퍼(아이웨어) -->
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            autoplay: {
+                delay: 2700,
+                disableOnInteraction: false,
+            }
+            ,
+            loop: 1,
+            slidesPerView: 2,
+            centeredSlides: true,
+            spaceBetween: 27,
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+        var appendNumber = 4;
+        var prependNumber = 1;
+        document
+            .querySelector(".prepend-2-slides")
+            .addEventListener("click", function (e) {
+                e.preventDefault();
+                swiper.prependSlide([
+                    '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+                    '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+                ]);
+            });
+        document
+            .querySelector(".prepend-slide")
+            .addEventListener("click", function (e) {
+                e.preventDefault();
+                swiper.prependSlide(
+                    '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
+                );
+            });
+        document
+            .querySelector(".append-slide")
+            .addEventListener("click", function (e) {
+                e.preventDefault();
+                swiper.appendSlide(
+                    '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
+                );
+            });
+        document
+            .querySelector(".append-2-slides")
+            .addEventListener("click", function (e) {
+                e.preventDefault();
+                swiper.appendSlide([
+                    '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+                    '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+                ]);
+            });
+
+
+
+    </script>
+
+    <!-- 두번째 스와이퍼 -->
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper2", {
+            spaceBetween: 30,
+            effect: "fade",
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            }
+            ,
+            loop: 1,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+</body>
+
+</html>
